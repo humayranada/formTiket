@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intimate Live Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <header>
+        <h1>FORM PEMESANAN TIKET</h1>
+        <p>"INTIMATE LIVE MUSIC"</p>
+    </header>
+    <br>
+    <img src="flyer.png" alt="flyer" height="400" width="400">
+
+    <table border="2" height="200" width="400" >
+        <thead>
+            <tr>
+                <th>Kategori</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Platinum</td>
+                <td>175.000</td>
+            </tr>
+            <tr>
+                <td>Gold</td>
+                <td>150.000</td>
+            </tr>
+            <tr>
+                <td>Silver</td>
+                <td>125.000</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="index.php" method="POST">
+        <label for="email">Alamat Email</label><br>
+        <input type="email" id="email" name="email"><br>
+        <br>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="Nama" name="Nama_Lengkap"><br>
+        <br>
+        <label for="nomor">Nomor Telepon</label><br>
+        <input type="text" id="nomor" name="Nomor_Telepon"><br>
+        <br>
+        <label for="nomor membership">Nomor Membership</label><br>
+        <input type="text" id="nomor membership" name="Nomor_Membership"><br>
+        <br>
+        <label for="kategori">Kategori</label>
+        <select name="Kategori" id="kategori">
+            <option value="Platinum">Platinum</option>
+            <option value="Gold">Gold</option>
+            <option value="Silver">Silver</option>
+        </select><br>
+        <br>
+        <label for="jumlah tiket">Jumlah Tiket</label><br>
+        <input type="number" id="jumlah tiket" name="Jumlah_Tiket">
+        <br>
+        <input type="checkbox" id="terms" name="terms" value="terms">
+        <label for="terms" name="terms">Saya setuju terhadap Syarat dan Ketentuan Hap Ent. dan Kebijakan Privasi Hap Ent.</label>
+        <br>
+        <label for="setuju">Setujui dan tekan tombol submit untuk memproses pesanan Anda</label><br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+    <label for="sneakpeak">See Intimate Live Music Last Month Here!</label> <br>
+    <a href="https://youtu.be/2m5DWXJGOCA?si=ID8xr0uo4ftzHubD">Intimate Live Music</a>
+    </footer>
+</main>
+<script window language="javascript">
+    window.alert("Silahkan muat ulang untuk membeli tiket")
+</script> 
+</body>
+</html>

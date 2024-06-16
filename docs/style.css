@@ -1,0 +1,113 @@
+@font-face {
+    font-family: ms;
+    src: url(CollegiateInsideFLF.ttf);
+}
+
+@font-face {
+    font-family: cb;
+    src: url(CollegiateBorderFLF.ttf);
+}
+
+
+body{
+    background-image: url(konser.jpeg);
+    background-repeat: repeat-y;
+}
+
+header{
+    background-color:#f06C7C;
+    text-align: center;
+    font-family: cb;
+    color: rgb(174, 232, 255);
+}
+
+h1{
+    padding-top: 10px;
+    font-size: 50px;
+}
+p{
+    font-family: ms;
+    color: rgb(39, 52, 129);
+    font-size: 40px;
+    padding-bottom: 10px
+}
+
+main{
+    background-color: rgb(224, 246, 255);
+    margin: 10% 20% 10% 20%;
+}
+
+table{
+    color: brown;
+    margin: 0.6% 25% 0.6% 25%;
+    border-color: #f06C7C;
+}
+
+form{
+    text-align: center;
+    padding: 10px;
+    color: #f06C7C;
+}
+
+img{
+    margin: 0% 25% 1% 25%;
+}
+
+footer{
+    background-color: #f06C7C;
+    text-align:left;
+    font-weight: bold;
+    color: rgb(0, 27, 85);
+    padding-bottom:5px;
+}
+
+a{
+    color: rgb(165, 255, 195);
+}
+
+a:hover{
+    color: blue;
+}
+
+a:visited{
+    color:pink;
+}
+
+a:active{
+    color: navy;
+}
+
+@media screen and (max-width: 399px) {
+    body{
+        background-image: url(konser.jpeg);
+        background-repeat: repeat-y;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background-image: url(konser.jpeg);
+        background-repeat: repeat-y;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body{
+        background-image: url(konser.jpeg);
+        background-repeat: repeat-y;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body{
+        background-image: url(konser.jpeg);
+        background-repeat: repeat-y;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body{
+        background-image: url(konser.jpeg);
+        background-repeat: repeat-y;
+    }
+}
